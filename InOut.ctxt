@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=InOut
+comment0.text=\r\nSupport\ class\ for\ console\ input\ and\ output\ of\ numeric\ values.<br><br>\r\n\r\nExample\ for\ input\:<br>\r\n&nbsp;int\ age\ \=\ InOut.readInt("Your\ age\:\ ");<br><br>\r\n\ \r\nExample\ for\ output\:<br>\r\n&nbsp;System.out.println("price\:\ "\ +\ InOut.format2(prize)\ +\ "Euro");<br>\r\n&nbsp;System.out.println("percent\:\ "\ +\ InOut.formatN(percent,\ 1)\ +\ "\ %");\r\n
+comment1.params=d
+comment1.target=java.lang.String\ format2(double)
+comment1.text=Formats\ a\ double-value\ with\ 2\ decimal\ digits.
+comment10.params=
+comment10.target=java.lang.String\ readln()
+comment10.text=\ Reads\ a\ string-value\ from\ console\ without\ prompt.\r\nFor\ use\ at\ the\ end\ of\ a\ console\ program.
+comment2.params=d\ N
+comment2.target=java.lang.String\ formatN(double,\ int)
+comment2.text=Formats\ a\ double-value\ with\ N\ decimal\ digits.
+comment3.params=prompt
+comment3.target=boolean\ readBoolean(java.lang.String)
+comment3.text=Reads\ a\ boolean-value\ from\ console.
+comment4.params=prompt
+comment4.target=char\ readChar(java.lang.String)
+comment4.text=Reads\ a\ char-value\ from\ console.
+comment5.params=prompt
+comment5.target=double\ readDouble(java.lang.String)
+comment5.text=Reads\ a\ double-value\ from\ console.
+comment6.params=prompt
+comment6.target=float\ readFloat(java.lang.String)
+comment6.text=Reads\ a\ float-value\ from\ console.
+comment7.params=prompt
+comment7.target=int\ readInt(java.lang.String)
+comment7.text=Reads\ an\ int-value\ from\ console.
+comment8.params=prompt
+comment8.target=long\ readLong(java.lang.String)
+comment8.text=Reads\ a\ long-value\ from\ console.
+comment9.params=prompt
+comment9.target=java.lang.String\ readString(java.lang.String)
+comment9.text=Reads\ a\ string-value\ from\ console.
+numComments=11
