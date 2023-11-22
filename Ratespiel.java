@@ -61,7 +61,6 @@ public class Ratespiel {
         connector.executeStatement("SELECT * FROM wissensbasis");
         
         QueryResult result = connector.getCurrentQueryResult();
-        System.out.println(connector.getErrorMessage());
         System.out.println(Arrays.toString(result.getData()[0]));
     }
     
