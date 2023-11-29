@@ -82,6 +82,7 @@ public class Ratespiel {
             else nodes[parentId].getTree().setRightTree(nodes[i].getTree());
         }
         wissensbaum = nodes[0].getTree();
+        System.out.println(Arrays.toString(result.getData()[0]));
     }
     
     private void connectToDatabase() { 
